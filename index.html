@@ -6,20 +6,41 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <style>
+
+
 body {
-    background-color: #4222f1;
-    font-family: "Avenir", "Avenir Next", "Source Sans Pro", "Open Sans", sans-serif;
+    background-color:#30323c;
+ filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#30323c, endColorstr=#30323c);
+ background-image:-moz-linear-gradient(top, #30323c 0%, #30323c 4%);
+ background-image:-webkit-linear-gradient(top, #30323c 0%, #30323c 4%);
+ background-image:-ms-linear-gradient(top, #30323c 0%, #30323c 4%);
+ background-image:linear-gradient(top, #30323c 0%, #30323c 4%);
+ background-image:-o-linear-gradient(top, #30323c 0%, #30323c 4%);
+ background-image:-webkit-gradient(linear, right top, right bottom, color-stop(0%,#30323c), color-stop(4%,#30323c));
+
+    font-family: "Lato", sans-serif;
     color: #fff;
 }
+
+#cnt {
+    position:relative;
+}
+
+#img2 {
+    position: absolute;
+    left: 28px;
+    top: 26px;
+}
+
 </style>
 
-<body>
-    <div style="width: 100%; height: 200px; background-color: #4222f1;">
+<body> 
+    <div style="width: 100%; height: 200px;">
         <div class="container" style="max-width: 700px; padding-top: 50px; text-align: center;">
             <h1 style="font-size: 32px;">
 				Auto Layout Sketch Plugin
 			</h1>
-            <div>
+            <!--<div>
                 <ul style="text-align: left; margin-top: 30px;">
                     <li>Design for all screen sizes at once</li>
                     <li>Preview all iPhone sizes in one Sketch file</li>
@@ -30,12 +51,13 @@ body {
                     <li>iPad</li>
                     <li>iPad Pro</li>
                 </ul>
-            </div>
+            </div>-->
             <div style="margin-top: 25px;">
-                <a href="#" class="btn btn-lg btn-info" style="font-size: 15px; background-color: #fff; border-color: #fff; color: #4222f1;">Download <span class="glyphicon glyphicon-download"></span></a>
+                <a href="#" class="btn btn-lg btn-info" style="font-size: 15px; background-color: #fff; border-color: #fff; color: #30323c;">Download <span class="glyphicon glyphicon-download"></span></a>
             </div>
-            <div class="row" style="text-align: center; margin-top: 50px;">
-                <img style="width: 100%; max-width: 700px;" width="700" src="https://cl.ly/1Q1l342E0j0b/ezgif.com-video-to-gif%20(6).gif">
+            <div id="cnt" class="row" style="text-align: center; margin-top: 50px;">
+            	<img id="img1" style="width: 100%; max-width: 700px;" src="http://www.pngmart.com/files/1/Apple-Mac-Computer-Screen-PNG.png">
+                <img id="img2" style="width: 100%; max-width: 649;" width="700" src="https://cl.ly/1Q1l342E0j0b/ezgif.com-video-to-gif%20(6).gif">
             </div>
         </div>
 </body>
