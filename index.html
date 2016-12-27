@@ -7,7 +7,7 @@
     <meta property="og:title" content="Auto Layout for Sketch">
     <meta property="og:description" content="Sketch Plugin for designing for all iOS screen sizes.">
     <meta property="og:url" content="https://animaapp.github.io/Auto-Layout/">
-    <meta property="og:image" content="https://animaapp.s3.amazonaws.com/home/STC_Center.png">
+    <meta property="og:image" content="https://cl.ly/2O0a2J1Z1s3k/tutorial_autolayout_youtube.png">
     <meta property="og:type" content="website">
 
     <!-- Twitter -->
@@ -17,7 +17,7 @@
     <meta name="twitter:image:width" content="320px">
     <meta name="twitter:image:height" content="320px">
     
-    <meta name="twitter:image:src" content="https://animaapp.s3.amazonaws.com/home/STC_Center.png">
+    <meta name="twitter:image:src" content="https://cl.ly/2O0a2J1Z1s3k/tutorial_autolayout_youtube.png">
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Auto Layout for Sketch</title>
@@ -55,12 +55,42 @@ body {
     top: 26px;
 }
 
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
 </style>
 
 <body> 
+
+<div class="pull-right" style="margin-right: 20px; margin-top: 20px;">
+<ul class="share-buttons">
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img alt="Share on Facebook" src="images/flat_web_icon_set/black/Facebook.png"></a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&text=:%20https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&via=animaapp" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img alt="Tweet" src="images/flat_web_icon_set/black/Twitter.png"></a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Submit to Reddit" src="images/flat_web_icon_set/black/Reddit.png"></a></li>
+  <li><a href="mailto:?subject=&body=:%20https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F" target="_blank" title="Send email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><img alt="Send email" src="images/flat_web_icon_set/black/Email.png"></a></li>
+</ul>
+</div>
+
     <div style="width: 100%; height: 200px;">
         <div class="container" style="max-width: 700px; padding-top: 50px; text-align: center;">
-            <h1 style="font-size: 32px; opacity: 0.8;">
+            <h1 style="font-size: 32px; opacity: 0.9;">
 				Auto Layout for Sketch
 			</h1>
             <!--<div>
@@ -75,10 +105,16 @@ body {
                     <li>iPad Pro</li>
                 </ul>
             </div>-->
+            
             <div style="margin-top: 25px;">
+            <a href="https://medium.com/@AnimaApp/introducing-auto-layout-for-sketch-24e7b5d068f9" class="btn btn-lg btn-info" style="font-size: 15px; background-color: #fff; border-color: #fff; color: #30323c;">
+                	Read 
+                <span class="glyphicons glyphicon-article"></span>
+                </a>
                 <a href="AutoLayoutPlugin.sketchplugin.zip" class="btn btn-lg btn-info" style="font-size: 15px; background-color: #fff; border-color: #fff; color: #30323c;">
                 	Download 
-                <span class="glyphicon glyphicon-download"></span></a>
+                <span class="glyphicon glyphicon-download"></span>
+                </a>
             </div>
             <div id="cnt" class="row" style="text-align: center; margin-top: 50px;">
             	<img id="img1" style="width: 100%; max-width: 700px;" src="http://www.pngmart.com/files/1/Apple-Mac-Computer-Screen-PNG.png">
