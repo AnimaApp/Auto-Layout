@@ -24,6 +24,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 </head>
 <style>
 body {
@@ -66,8 +67,9 @@ body {
 }
 
 #img0 {
-    margin-left: 5px;
-    width: 50px;
+    margin-left: 12px;
+    margin-bottom: 8px;
+    width: 44px;
 }
 
 ul.share-buttons {
@@ -89,25 +91,45 @@ ul.share-buttons .sr-only {
     width: 1px;
     overflow: hidden;
 }
+    
+    .share-buttons a{
+    border-radius: 50%;
+    color: #fff;
+    border: 1px solid #000;
+    background-color: #000;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 10px;
+    font-size: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+    padding-top: 7px;
+}
+    
+  
 </style>
 
 <body>
     <div class="pull-right" style="margin-right: 20px; margin-top: 20px;">
         <ul class="share-buttons">
             <li>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img alt="Share on Facebook" src="images/flat_web_icon_set/black/Facebook.png"></a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><i class="fa fa-facebook" aria-hidden="true"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&text=:%20https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&via=animaapp" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img alt="Tweet" src="images/flat_web_icon_set/black/Twitter.png"></a>
+                <a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&text=:%20https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&via=animaapp" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </li>
             <li>
-                <a href="http://www.reddit.com/submit?url=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Submit to Reddit" src="images/flat_web_icon_set/black/Reddit.png"></a>
+                <a href="http://www.reddit.com/submit?url=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a>
             </li>
             <li>
-                <a href="mailto:?subject=&body=:%20https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F" target="_blank" title="Send email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><img alt="Send email" src="images/flat_web_icon_set/black/Email.png"></a>
+                <a href="mailto:?subject=&body=:%20https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F" target="_blank" title="Send email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><i class="fa fa-envelope" aria-hidden="true"></i></a>
             </li>
         </ul>
     </div>
+    
+    
     <div style="width: 100%; height: 200px;">
         <div class="container" style="max-width: 700px; padding-top: 50px; text-align: center;">
             <h1 style="font-size: 32px; opacity: 0.9;">
@@ -126,29 +148,29 @@ ul.share-buttons .sr-only {
                 </ul>
             </div>-->
             <div style="margin-top: 25px;">
-                <a href="AutoLayoutPlugin.sketchplugin.zip" class="btn btn-lg btn-info" style="width: 114px; font-weight: bold; font-size: 15px; background-color: #fff; border-color: #fff; color: #30323c;">
+                <a href="AutoLayoutPlugin.sketchplugin.zip" class="btn btn-lg btn-info" style="width: 124px; font-weight: bold; font-size: 16px; background-color: #fff; border-color: #fff; color: #30323c;">
                 	Download 
                 <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
                 </a>
             </div>
             <div style="margin-top: 25px;">
             <span style="margin-right: 20px;">
-                <a href="https://medium.com/@AnimaApp/introducing-auto-layout-for-sketch-24e7b5d068f9" style="width: 114px; font-size: 15px; color: #fff; opacity: 0.9;">
-                	Read Article
-                <i class="fa fa-medium" aria-hidden="true"></i>
+                <a href="https://medium.com/@AnimaApp/introducing-auto-layout-for-sketch-24e7b5d068f9" style="width: 114px; font-size: 16px; color: #fff; opacity: 0.9;"><i class="fa fa-medium" aria-hidden="true"></i>
+                	&nbsp;Read Article
+                
                 </a>
                 </span>
                 
                 <span style="margin-left: 20px;">
-                <a href="https://www.youtube.com/watch?v=4y7UqG7gvxE" style="width: 114px; font-size: 15px; color: #fff; opacity: 0.9;">
-                	Live Tutorial
-                <i class="fa fa-youtube" aria-hidden="true"></i>
+                <a href="https://www.youtube.com/watch?v=4y7UqG7gvxE" style="width: 114px; font-size: 16px; color: #fff; opacity: 0.9;"><i class="fa fa-youtube" aria-hidden="true"></i>
+                	&nbsp;Live Tutorial
+                
                 </a>
                 </span>
 
                 
             </div>
-            <div id="cnt" class="row" style="text-align: center; margin-top: 25px;">
+            <div id="cnt" class="row" style="text-align: center; margin-top: 25px; margin-bottom: 20px;">
                 <img id="img1" style="width: 100%; max-width: 700px;" src="http://www.pngmart.com/files/1/Apple-Mac-Computer-Screen-PNG.png">
                 <img id="img2" style="max-width: 649px;" src="https://cl.ly/1Q1l342E0j0b/ezgif.com-video-to-gif%20(6).gif">
             </div>
