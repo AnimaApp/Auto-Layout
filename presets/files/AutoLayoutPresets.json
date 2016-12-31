@@ -1,8 +1,4 @@
 {
-  "meta": {
-    "name": "iOS + Android + Web",
-    "author": "Anima Team"
-  },
   "presets" : {
     "Web" : [
       {

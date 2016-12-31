@@ -1,8 +1,24 @@
 {
-	"files": [
-		"https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/AutoLayoutPresets.json",
-		"https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/Apple Watch.json",
-		"https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/Tablets.json",
-		"https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/Windows Phone.json"
-	]
+    "files": [{
+            "name": "iOS + Android + Web",
+            "author": "Anima Team",
+            "url": "https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/AutoLayoutPresets.json",
+            "raw_url": "https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/AutoLayoutPresets.json"
+        }, {
+            "name": "Windows Phone 8",
+            "author": "James H.",
+            "url": "https://github.com/AnimaApp/Auto-Layout/blob/master/presets/files/Windows%20Phone%208.json",
+            "raw_url": "https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/WindowsPhone 8.json"
+        }, {
+            "name": "Apple Watch",
+            "author": "Amanda P.",
+            "url": "https://github.com/AnimaApp/Auto-Layout/blob/master/presets/files/Apple%20Watch.json",
+            "raw_url": "https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/Apple Watch.json"
+        }, {
+            "name": "Android Tablets",
+            "author": "Michal C.",
+            "url": "https://github.com/AnimaApp/Auto-Layout/blob/master/presets/files/Android%20Tablets.json",
+            "raw_url": "https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/Android Tablets.json"
+        }
+    ]
 }
