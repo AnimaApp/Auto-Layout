@@ -77,7 +77,6 @@
     })(document, window.mixpanel || []);
     mixpanel.init("40e042633f1022c65c2b1ebcfdba41e7");
     </script>
-
     <!-- end Mixpanel -->
 </head>
 <style>
@@ -169,66 +168,89 @@ pre {
     padding: 1em;
 }
 
+
 /* navbar */
+
 .navbar-default {
     background-color: #30323c;
     border-color: #30323c;
 }
+
+
 /* title */
+
 .navbar-default .navbar-brand {
     color: #777;
 }
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
     color: #fff;
 }
+
+
 /* link */
+
 .navbar-default .navbar-nav > li > a {
     color: #fff;
 }
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: gray;
 }
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     color: #555;
     background-color: #E7E7E7;
 }
-.navbar-default .navbar-nav > .open > a, 
-.navbar-default .navbar-nav > .open > a:hover, 
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
     color: #555;
     background-color: #30323c;
 }
+
+
 /* caret */
+
 .navbar-default .navbar-nav > .dropdown > a .caret {
     border-top-color: #777;
     border-bottom-color: #777;
 }
+
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
 .navbar-default .navbar-nav > .dropdown > a:focus .caret {
     border-top-color: #333;
     border-bottom-color: #333;
 }
-.navbar-default .navbar-nav > .open > a .caret, 
-.navbar-default .navbar-nav > .open > a:hover .caret, 
+
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
 .navbar-default .navbar-nav > .open > a:focus .caret {
     border-top-color: #555;
     border-bottom-color: #555;
 }
+
+
 /* mobile version */
+
 .navbar-default .navbar-toggle {
     border-color: #DDD;
 }
+
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: #DDD;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #CCC;
 }
+
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: #777;
@@ -238,52 +260,48 @@ pre {
         color: #333;
     }
 }
-
 </style>
 
 <body>
-
-<nav class="navbar navbar-default">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="/">Home</a></li>
-        <li><a href="presets.html">Screen Sizes</a></li>
-        <li><a href="http://facebook.animaapp.com">Community</a></li>
-      </ul>
-
-      <div class="pull-right" style="margin-top: 10px;">
-        <ul class="share-buttons">
-            <li>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&text=:%20https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&via=animaapp" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            </li>
-            <li>
-                <a href="http://www.reddit.com/submit?url=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a>
-            </li>
-            <li>
-                <a href="mailto:?subject=&body=:%20https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F" target="_blank" title="Send email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-            </li>
-        </ul>
-    </div>
-
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container -->
-</nav>
-    
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="presets.html">Screen Sizes</a></li>
+                    <li><a href="http://facebook.animaapp.com">Community</a></li>
+                </ul>
+                <div class="pull-right" style="margin-top: 10px;">
+                    <ul class="share-buttons">
+                        <li>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&text=:%20https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&via=animaapp" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://www.reddit.com/submit?url=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:?subject=&body=:%20https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F" target="_blank" title="Send email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
     <div style="width: 100%; height: 200px;">
         <div class="container" style="max-width: 700px; padding-top: 50px; text-align: center;">
             <h1 style="font-size: 32px; opacity: 0.9;">
@@ -313,7 +331,7 @@ pre {
             jQuery.get('https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/index.json', function(data) {
                 data = JSON.parse(data);
                 $.each(data.items, function(index, item) {
-                        $('#presets-table').append('<tr><td><div style="padding-top: 20px;">' + item.name + '</div></td><td><div style="padding-top: 20px;">' + item.author + '</div></td><td> \
+                    $('#presets-table').append('<tr><td><div style="padding-top: 20px;">' + item.name + '</div></td><td><div style="padding-top: 20px;">' + item.author + '</div></td><td> \
                          <div style="padding-top: 20px; text-align: center;">\
                 <a href="' + item.url + '" class="btn btn-xs btn-info" style=" font-weight: bold; font-size: 13px; background-color: #fff; border-color: #fff; color: #30323c;"> \
                     View \
@@ -322,7 +340,7 @@ pre {
                     Download \
                 </a>\
                         </div></td></tr>');
-                    });
+                });
             });
             </script>
         </div>
