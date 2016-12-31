@@ -1,0 +1,182 @@
+<html>
+
+<head>
+
+    <script src="js/lib/json-formatter.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- Facebook -->
+    <meta property="og:site_name" content="Auto Layout for Sketch">
+    <meta property="og:title" content="Auto Layout for Sketch">
+    <meta property="og:description" content="Sketch Plugin for designing for all iOS screen sizes.">
+    <meta property="og:url" content="https://animaapp.github.io/Auto-Layout/">
+    <meta property="og:image" content="https://cl.ly/2O0a2J1Z1s3k/tutorial_autolayout_youtube.png">
+    <meta property="og:type" content="website">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="photo">
+    <meta name="twitter:title" content="Auto Layout for Sketch">
+    <meta name="twitter:description" content="Sketch Plugin for designing for all iOS screen sizes.">
+    <meta name="twitter:image:width" content="320px">
+    <meta name="twitter:image:height" content="320px">
+    <meta name="twitter:image:src" content="https://cl.ly/2O0a2J1Z1s3k/tutorial_autolayout_youtube.png">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Auto Layout for Sketch</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,min-scale=1.0,max-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" type="image/png" href="https://animaapp.s3.amazonaws.com/home/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+    <!-- start Mixpanel --><script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+mixpanel.init("40e042633f1022c65c2b1ebcfdba41e7");</script><!-- end Mixpanel -->
+
+</head>
+<style>
+body {
+    background-color: #30323c;
+    filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#30323c, endColorstr=#30323c);
+    background-image: -moz-linear-gradient(top, #30323c 0%, #30323c 4%);
+    background-image: -webkit-linear-gradient(top, #30323c 0%, #30323c 4%);
+    background-image: -ms-linear-gradient(top, #30323c 0%, #30323c 4%);
+    background-image: linear-gradient(top, #30323c 0%, #30323c 4%);
+    background-image: -o-linear-gradient(top, #30323c 0%, #30323c 4%);
+    background-image: -webkit-gradient(linear, right top, right bottom, color-stop(0%, #30323c), color-stop(4%, #30323c));
+    font-family: "Lato", sans-serif;
+    color: #fff;
+}
+
+@media not all and (max-width: 700px) {
+	#img2 {
+	    position: absolute;
+	    left: 28px;
+	    top: 26px;
+	    width: 100%;
+	}
+}
+@media all and (max-width: 700px) {
+	#img2 {
+	    position: absolute;
+	    left: 12px;
+	    top: 14px;
+	    width: 94%;
+	}
+}
+
+.img {
+    width: 100vw;
+    height: 100vh;
+}
+
+#cnt {
+    position: relative;
+}
+
+#img0 {
+    margin-left: 12px;
+    margin-bottom: 8px;
+    width: 44px;
+}
+
+ul.share-buttons {
+    list-style: none;
+    padding: 0;
+}
+
+ul.share-buttons li {
+    display: inline;
+}
+
+ul.share-buttons .sr-only {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+    
+    .share-buttons a{
+    border-radius: 50%;
+    color: #fff;
+    border: 1px solid #000;
+    background-color: #000;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 10px;
+    font-size: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+    padding-top: 7px;
+}
+    
+  
+</style>
+
+<body>
+    <div class="pull-right" style="margin-right: 20px; margin-top: 20px;">
+        <ul class="share-buttons">
+            <li>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&text=:%20https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&via=animaapp" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="http://www.reddit.com/submit?url=https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="mailto:?subject=&body=:%20https%3A%2F%2Fanimaapp.github.io%2FAuto-Layout%2F" target="_blank" title="Send email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+    
+    
+    <div style="width: 100%; height: 200px;">
+        <div class="container" style="max-width: 700px; padding-top: 50px; text-align: center;">
+            <h1 style="font-size: 32px; opacity: 0.9;">
+				Auto Layout for Sketch<span><img id="img0" src="https://cl.ly/0G082c1M3h0l/Pasted%20image%20at%202016_12_27%2023_29.png"></span>
+			</h1>
+            
+            <script>
+
+            jQuery.get('presets/AutoLayoutPresets.json', function(data) {
+                console.log(data)
+            const formatter = new JSONFormatter(myJSON);
+
+            document.body.appendChild(formatter.render());
+            });
+
+
+</script>
+            
+        </div>
+        <!-- Start of StatCounter Code for Default Guide -->
+        <script type="text/javascript">
+        var sc_project = 11202225;
+        var sc_invisible = 1;
+        var sc_security = "26873aed";
+        var sc_https = 1;
+        var scJsHost = (("https:" == document.location.protocol) ?
+            "https://secure." : "http://www.");
+        document.write("<sc" + "ript type='text/javascript' src='" + scJsHost +
+            "statcounter.com/counter/counter.js'></" + "script>");
+        </script>
+        <noscript>
+            <div class="statcounter">
+                <a title="web analytics" href="http://statcounter.com/" target="_blank"><img class="statcounter" src="//c.statcounter.com/11202225/0/26873aed/1/" alt="web
+analytics"></a>
+            </div>
+        </noscript>
+        <!-- End of StatCounter Code for Default Guide -->
+</body>
+
+</html>

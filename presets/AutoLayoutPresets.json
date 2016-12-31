@@ -1,0 +1,117 @@
+{
+  "presets" : {
+    "Web" : [
+      {
+        "title" : "Desktop HD",
+        "width" : 1440,
+        "height" : 1024
+      },
+      {
+        "title" : "Desktop",
+        "width" : 1024,
+        "height" : 1024
+      },
+      {
+        "title" : "Tablet Portrait",
+        "width" : 768,
+        "height" : 1024
+      },
+      {
+        "title" : "Mobile Portrait",
+        "width" : 320,
+        "height" : 1024
+      }
+    ],
+    "New (3)1345" : [
+      {
+        "title" : "Custom3",
+        "width" : 1004,
+        "height" : 100
+      }
+    ],
+    "Android" : [
+      {
+        "title" : "ldpi",
+        "width" : 240,
+        "height" : 400
+      },
+      {
+        "title" : "mdpi",
+        "width" : 320,
+        "height" : 480
+      },
+      {
+        "title" : "hdpi",
+        "width" : 480,
+        "height" : 800
+      },
+      {
+        "title" : "xhdpi",
+        "width" : 640,
+        "height" : 960
+      }
+    ],
+    "New" : [
+      {
+        "title" : "Custom1",
+        "width" : 1002,
+        "height" : 1003
+      },
+      {
+        "title" : "Custom3",
+        "width" : 100,
+        "height" : 100
+      }
+    ],
+    "iOS" : [
+      {
+        "title" : "iPhone 4S",
+        "width" : 320,
+        "height" : 480,
+        "scale" : 2
+      },
+      {
+        "title" : "iPhone SE",
+        "width" : 320,
+        "height" : 568,
+        "scale" : 2
+      },
+      {
+        "title" : "iPhone 7",
+        "width" : 375,
+        "height" : 667,
+        "scale" : 2
+      },
+      {
+        "title" : "iPhone 7+",
+        "width" : 414,
+        "height" : 736,
+        "scale" : 3
+      },
+      {
+        "title" : "iPad Air",
+        "width" : 768,
+        "height" : 1024,
+        "scale" : 2
+      },
+      {
+        "title" : "iPad Pro",
+        "width" : 1024,
+        "height" : 1366,
+        "scale" : 2
+      }
+    ],
+    "New (2)" : [
+      {
+        "title" : "Custom",
+        "width" : 1006,
+        "height" : 1007
+      }
+    ]
+  },
+  "platforms" : [
+    "iOS",
+    "Android",
+    "Web"
+  ]
+}
