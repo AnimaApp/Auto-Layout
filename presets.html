@@ -2,9 +2,6 @@
 
 <head>
 
-    <script src="js/lib/json-formatter.js"></script>
-    <script src="js/app.js"></script>
-
     <!-- Facebook -->
     <meta property="og:site_name" content="Auto Layout for Sketch">
     <meta property="og:title" content="Auto Layout for Sketch">
@@ -117,6 +114,12 @@ ul.share-buttons .sr-only {
     text-align: center;
     padding-top: 7px;
 }
+
+pre {
+      font-size: 1.5rem;
+      background: #efefef;
+      padding: 1em;
+    }
     
   
 </style>
@@ -145,14 +148,41 @@ ul.share-buttons .sr-only {
             <h1 style="font-size: 32px; opacity: 0.9;">
 				Auto Layout for Sketch<span><img id="img0" src="https://cl.ly/0G082c1M3h0l/Pasted%20image%20at%202016_12_27%2023_29.png"></span>
 			</h1>
+
+            <table>
+                <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Author
+                    </th>
+                    <th>
+
+                    </th>
+                </tr>
+                </thead>
+
+                <tbody id="presets-table">
+                    
+
+
+                </tbody>
+
+
+            </table>
+
+            <div class="preset-json" style="text-align: left; color: #fff;">
+
+            </div>
             
             <script>
 
-            jQuery.get('presets/AutoLayoutPresets.json', function(data) {
-                console.log(data)
-            const formatter = new JSONFormatter(myJSON);
-
-            document.body.appendChild(formatter.render());
+            jQuery.get('https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/index.json', function(data) {
+               $.each(data['files'], function(item, index) {
+                    $('#presets-table').append('<tr><td>'+item.name+'</td><td></td><td></td></tr>');
+               });
             });
 
 
