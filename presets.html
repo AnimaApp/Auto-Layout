@@ -312,21 +312,17 @@ pre {
             <script>
             jQuery.get('https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/index.json', function(data) {
                 data = JSON.parse(data);
-                $.each(data.files, function(index, item) {
-
-                    jQuery.get(item, function(data) {
-                        data = JSON.parse(data);
-                        $('#presets-table').append('<tr><td><div style="padding-top: 20px;">' + data.meta.name + '</div></td><td><div style="padding-top: 20px;">' + data.meta.author + '</div></td><td> \
+                $.each(data.items, function(index, item) {
+                        $('#presets-table').append('<tr><td><div style="padding-top: 20px;">' + item.name + '</div></td><td><div style="padding-top: 20px;">' + item.author + '</div></td><td> \
                          <div style="padding-top: 20px; text-align: center;">\
-                <a href="' + item + '" class="btn btn-xs btn-info" style=" font-weight: bold; font-size: 13px; background-color: #fff; border-color: #fff; color: #30323c;"> \
+                <a href="' + item.url + '" class="btn btn-xs btn-info" style=" font-weight: bold; font-size: 13px; background-color: #fff; border-color: #fff; color: #30323c;"> \
                     View \
                 </a>\
-                <a download href="' + item + '" class="btn btn-xs btn-info" style=" font-weight: bold; font-size: 13px; background-color: #fff; border-color: #fff; color: #30323c;"> \
+                <a download href="' + item.raw_url + '" class="btn btn-xs btn-info" style=" font-weight: bold; font-size: 13px; background-color: #fff; border-color: #fff; color: #30323c;"> \
                     Download \
                 </a>\
                         </div></td></tr>');
                     });
-                });
             });
             </script>
         </div>
