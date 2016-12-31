@@ -1,0 +1,29 @@
+{
+  "presets" : {
+    "Android Tablets" : [
+      {
+        "title" : "Nexus 7",
+        "width" : 600,
+        "height" : 960
+      },
+      {
+        "title" : "Nexus 9",
+        "width" : 768,
+        "height" : 1024
+      },
+      {
+        "title" : "Samsung Galaxy Tab 10",
+        "width" : 800,
+        "height" : 1280
+      },
+      {
+        "title" : "Chromebook Pixel",
+        "width" : 1280,
+        "height" : 850
+      }
+    ]
+  },
+  "platforms" : [
+    "Android Tablets"
+  ]
+}

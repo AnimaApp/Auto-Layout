@@ -1,0 +1,29 @@
+{
+  "presets" : {
+    "Windows Phone 8" : [
+      {
+        "title" : "WVGA",
+        "width" : 480,
+        "height" : 800
+      },
+      {
+        "title" : "WXGA",
+        "width" : 768,
+        "height" : 1280
+      },
+      {
+        "title" : "720p",
+        "width" : 720,
+        "height" : 1280
+      },
+      {
+        "title" : "1080p",
+        "width" : 1080,
+        "height" : 1920
+      }
+    ]
+  },
+  "platforms" : [
+    "Windows Phone 8"
+  ]
+}
