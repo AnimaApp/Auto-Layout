@@ -2,7 +2,7 @@
     "items": [{
             "name": "iOS + Android + Web",
             "author": "Anima Team",
-            "url": "https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/AutoLayoutPresets.json",
+            "url": "https://github.com/AnimaApp/Auto-Layout/blob/master/presets/files/AutoLayoutPresets.json",
             "raw_url": "https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/AutoLayoutPresets.json"
         }, {
             "name": "Windows Phone 8",
