@@ -180,8 +180,15 @@ pre {
             <script>
 
             jQuery.get('https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/index.json', function(data) {
-               $.each(data['files'], function(item, index) {
-                    $('#presets-table').append('<tr><td>'+item.name+'</td><td></td><td></td></tr>');
+                data = JSON.parse(data);
+                console.log(data.files)
+               $.each(data.files, function(index, item) {
+
+                jQuery.get(item, function(data) {
+                    data = JSON.parse(data);
+                    console.log(data)
+                    $('#presets-table').append('<tr><td>'+data.meta.name+'</td><td></td><td></td></tr>');
+                });
                });
             });
 
