@@ -58,7 +58,7 @@ You can edit a presets file using the `Presets Editor` or by editing the json fi
 
 # Contribute 🎀
 
-You can contribute presets in 3 of the following ways:
+You can contribute presets in one of the following ways:
 
 ### GitHub Issue
 1. Create an issue with your file: https://github.com/AnimaApp/Auto-Layout/issues 
