@@ -12,7 +12,7 @@ An example `Preset` object:
 
 A collection of presets is a json file. The file has a dictionary with 2 keys:  
 1. `platforms` - An array of the platforms contained in the collection.  
-2. `presets` - A dicionary with an array of presets for each platform that `platforms` contain.
+2. `presets` - A dictionary with an array of presets for each platform that `platforms` contain.
 Example:  
 ```
 {
