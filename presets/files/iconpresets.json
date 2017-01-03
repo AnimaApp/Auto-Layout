@@ -1,0 +1,78 @@
+{
+  "presets" : {
+    "Android Icons" : [
+      {
+        "title" : "Play Store",
+        "width" : 512,
+        "height" : 512
+      },
+      {
+        "title" : "xxxhdpi",
+        "width" : 192,
+        "height" : 192
+      },
+      {
+        "title" : "xxhdpi",
+        "width" : 144,
+        "height" : 144
+      },
+      {
+        "title" : "xhdpi",
+        "width" : 96,
+        "height" : 96
+      },
+      {
+        "title" : "hdpi",
+        "width" : 72,
+        "height" : 72
+      },
+      {
+        "title" : "mdpi",
+        "width" : 48,
+        "height" : 48
+      }
+    ],
+    "iOS Icons" : [
+      {
+        "title" : "iPhone 6 Plus",
+        "width" : 180,
+        "height" : 180,
+        "scale" : 3
+      },
+      {
+        "title" : "iPad",
+        "width" : 152,
+        "height" : 152,
+        "scale" : 2
+      },
+      {
+        "title" : "iPhone",
+        "width" : 120,
+        "height" : 120,
+        "scale" : 2
+      },
+      {
+        "title" : "Spotlight",
+        "width" : 80,
+        "height" : 80,
+        "scale" : 2
+      },
+      {
+        "title" : "iPad (@1x)",
+        "width" : 76,
+        "height" : 76,
+        "scale" : 1
+      },
+      {
+        "title" : "Settings",
+        "width" : 58,
+        "height" : 58,
+        "scale" : 2
+      }
+    ]
+  },
+  "platforms" : [
+    "Android Icons",
+    "iOS Icons"
+  ]
+}
