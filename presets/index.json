@@ -19,6 +19,19 @@
             "author": "Michal C.",
             "url": "https://github.com/AnimaApp/Auto-Layout/blob/master/presets/files/Android%20Tablets.json",
             "raw_url": "https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/Android Tablets.json"
+        },
+        {
+            "name": "Material Design",
+            "author": "rezafaizarahman",
+            "url": "https://github.com/AnimaApp/Auto-Layout/blob/master/presets/files/materialdesign.json",
+            "raw_url": "https://raw.githubusercontent.com/AnimaApp/Auto-Layout/blob/master/presets/files/materialdesign.json"
+        },
+        {
+            "name": "Icons (Android + iOS)",
+            "author": "rezafaizarahman",
+            "url": "https://github.com/AnimaApp/Auto-Layout/blob/master/presets/files/iconpresets.json",
+            "raw_url": "https://raw.githubusercontent.com/AnimaApp/Auto-Layout/blob/master/presets/files/iconpresets.json"
         }
+
     ]
 }
