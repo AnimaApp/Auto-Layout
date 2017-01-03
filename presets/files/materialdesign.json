@@ -1,0 +1,29 @@
+{
+  "presets" : {
+    "Material Design" : [
+      {
+        "title" : "Desktop Landscape",
+        "width" : 1280,
+        "height" : 850
+      },
+      {
+        "title" : "Tablet 9 Portrait",
+        "width" : 768,
+        "height" : 1024
+      },
+      {
+        "title" : "Tablet 7 Portrait",
+        "width" : 600,
+        "height" : 960
+      },
+      {
+        "title" : "Mobile Portrait",
+        "width" : 360,
+        "height" : 640
+      }
+    ]
+  },
+  "platforms" : [
+    "Material Design"
+  ]
+}
