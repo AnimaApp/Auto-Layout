@@ -1,0 +1,46 @@
+{
+    "author" : "Anima App",
+    "commands" : [
+                  {
+                  "name": "Show/Hide Panel",
+                  "shortcut" : "ctrl a",
+                  "identifier": "com.animaapp.anima-panel-autolayout",
+                  "script": "autolayout.js",
+                  "handler": "togglePanel",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "createScreenSizesDoc",
+                  "name" : "Generate Screen Sizes Overview",
+                  "identifier" : "com.animaapp.create-sizes-doc-autolayout",
+                  "isRoot" : false
+                  },
+                  {
+                  "script":"autolayout.js",
+                    "handlers":{
+                        "actions":{
+                            "Startup":"start"
+                        }
+                    }
+                  }
+                  ],
+    "menu" : {
+        "title" : "📐 Auto-Layout by Anima",
+        "isRoot" : false,
+        "items" : [
+                   "com.animaapp.anima-panel-autolayout",
+                   "com.animaapp.create-sizes-doc-autolayout",
+                   ],
+    },
+    "identifier" : "com.animaapp.stc-sketch-plugin",
+    "description": "Auto Layout for Sketch",
+    "authorEmail" : "support@animaapp.com",
+    "name" : "Auto Layout by Anima",
+    "homepage": "http://www.animaapp.com",
+    "version": "0.0.4",
+    "manifestURL": "",
+    "downloadURL": "",
+    "compatibleVersion": 41,
+    "bundleVersion": 1
+}
