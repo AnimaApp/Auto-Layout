@@ -8,7 +8,7 @@
             "name": "Windows Phone 8",
             "author": "James H.",
             "url": "https://github.com/AnimaApp/Auto-Layout/blob/master/presets/files/Windows%20Phone%208.json",
-            "raw_url": "https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/WindowsPhone 8.json"
+            "raw_url": "https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/Windows%20Phone%208.json"
         }, {
             "name": "Apple Watch",
             "author": "Amanda P.",
@@ -19,6 +19,19 @@
             "author": "Michal C.",
             "url": "https://github.com/AnimaApp/Auto-Layout/blob/master/presets/files/Android%20Tablets.json",
             "raw_url": "https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/Android Tablets.json"
+        },
+        {
+            "name": "Material Design",
+            "author": "rezafaizarahman",
+            "url": "https://github.com/AnimaApp/Auto-Layout/blob/master/presets/files/materialdesign.json",
+            "raw_url": "https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/materialdesign.json"
+        },
+        {
+            "name": "Icons (Android + iOS)",
+            "author": "rezafaizarahman",
+            "url": "https://github.com/AnimaApp/Auto-Layout/blob/master/presets/files/iconpresets.json",
+            "raw_url": "https://raw.githubusercontent.com/AnimaApp/Auto-Layout/master/presets/files/iconpresets.json"
         }
+
     ]
 }
