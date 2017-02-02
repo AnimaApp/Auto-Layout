@@ -40,3 +40,28 @@ function createScreenSizesDoc(context) {
     [APSketch createScreenSizesDoc];
 }
 
+function checkForUpdate(context) {
+    loadBundleIfRequired();
+    [APSketch checkForUpdateAndShowIfNone];
+}
+
+function presentChangeLog(context) {
+    loadBundleIfRequired();
+    [APSketch presentChangeLog];
+}
+
+function presentKeyboardShortcuts(context) {
+    loadBundleIfRequired();
+    [APSketch presentKeyboardShortcuts];
+}
+
+function openCommunity(context) {
+    loadBundleIfRequired();
+    [APSketch openCommunity];
+}
+
+function openDocs(context) {
+    loadBundleIfRequired();
+    [APSketch openDocs];
+}
+

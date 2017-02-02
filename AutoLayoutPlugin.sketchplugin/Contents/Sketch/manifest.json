@@ -11,9 +11,44 @@
                   },
                   {
                   "script" : "framework_actions.js",
+                  "handler" : "openDocs",
+                  "name" : "Guide",
+                  "identifier" : "com.animaapp.open-docs",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
                   "handler" : "createScreenSizesDoc",
-                  "name" : "Generate Screen Sizes Overview",
+                  "name" : "Generate Overview",
                   "identifier" : "com.animaapp.create-sizes-doc-autolayout",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "checkForUpdate",
+                  "name" : "Check for Update",
+                  "identifier" : "com.animaapp.check-for-update",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "presentChangeLog",
+                  "name" : "What's New",
+                  "identifier" : "com.animaapp.changelog",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "presentKeyboardShortcuts",
+                  "name" : "Keyboard Shortcuts",
+                  "identifier" : "com.animaapp.keyboard-shortcuts",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "openCommunity",
+                  "name" : "Community",
+                  "identifier" : "com.animaapp.open-community",
                   "isRoot" : false
                   },
                   {
@@ -31,6 +66,14 @@
         "items" : [
                    "com.animaapp.anima-panel-autolayout",
                    "com.animaapp.create-sizes-doc-autolayout",
+                   "-",
+                   "com.animaapp.open-docs",
+                   "-",
+                   "com.animaapp.keyboard-shortcuts",
+                   "-",
+                   "com.animaapp.check-for-update",
+                   "com.animaapp.changelog",
+                   "com.animaapp.open-community"
                    ],
     },
     "identifier" : "com.animaapp.stc-sketch-plugin",
@@ -38,7 +81,7 @@
     "authorEmail" : "support@animaapp.com",
     "name" : "Auto Layout by Anima",
     "homepage": "http://www.animaapp.com",
-    "version": "0.1.2",
+    "version": "0.1.4",
     "manifestURL": "",
     "downloadURL": "",
     "compatibleVersion": 41,
