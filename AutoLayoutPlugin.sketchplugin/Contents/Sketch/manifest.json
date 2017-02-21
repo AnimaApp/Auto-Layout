@@ -52,6 +52,13 @@
                   "isRoot" : false
                   },
                   {
+                  "script" : "framework_actions.js",
+                  "handler" : "duplicateAndDetachAllSymbols",
+                  "name" : "Prepare Export to other Plugins",
+                  "identifier" : "com.animaapp.duplicate-detach",
+                  "isRoot" : false
+                  },
+                  {
                   "script":"autolayout.js",
                     "handlers":{
                         "actions":{
@@ -66,6 +73,7 @@
         "items" : [
                    "com.animaapp.anima-panel-autolayout",
                    "com.animaapp.create-sizes-doc-autolayout",
+                   "com.animaapp.duplicate-detach",
                    "-",
                    "com.animaapp.open-docs",
                    "-",
@@ -81,7 +89,7 @@
     "authorEmail" : "support@animaapp.com",
     "name" : "Auto Layout by Anima",
     "homepage": "http://www.animaapp.com",
-    "version": "0.1.4",
+    "version": "0.2.0",
     "manifestURL": "",
     "downloadURL": "",
     "compatibleVersion": 41,

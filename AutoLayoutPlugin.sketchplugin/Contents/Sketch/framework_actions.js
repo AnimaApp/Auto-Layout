@@ -65,3 +65,8 @@ function openDocs(context) {
     [APSketch openDocs];
 }
 
+function duplicateAndDetachAllSymbols(context) {
+    loadBundleIfRequired();
+    [APSketch duplicateAndDetachAllSymbols];
+}
+
