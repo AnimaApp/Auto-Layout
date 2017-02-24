@@ -82,7 +82,7 @@
                    "com.animaapp.check-for-update",
                    "com.animaapp.changelog",
                    "com.animaapp.open-community"
-                   ],
+                   ]
     },
     "identifier" : "com.animaapp.stc-sketch-plugin",
     "description": "Auto Layout for Sketch",
