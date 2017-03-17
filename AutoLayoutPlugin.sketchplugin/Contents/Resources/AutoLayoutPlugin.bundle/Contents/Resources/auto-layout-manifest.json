@@ -59,6 +59,21 @@
                   "isRoot" : false
                   },
                   {
+                  "script" : "framework_actions.js",
+                  "handler" : "detachSymbolPreservingOverrides",
+                  "name" : "Detach Symbol and Apply Overrides",
+                  "identifier" : "com.animaapp.detach-symbol",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "detachSymbolPreservingOverridesRecursive",
+                  "name" : "Detach Symbol + Nested Symbols",
+                  "identifier" : "com.animaapp.detach-symbol-recursive",
+                  "isRoot" : false
+                  },
+                  
+                  {
                   "script":"autolayout.js",
                     "handlers":{
                         "actions":{
@@ -81,7 +96,10 @@
                    "-",
                    "com.animaapp.check-for-update",
                    "com.animaapp.changelog",
-                   "com.animaapp.open-community"
+                   "com.animaapp.open-community",
+                   "-",
+                   "com.animaapp.detach-symbol",
+                   "com.animaapp.detach-symbol-recursive",
                    ],
     },
     "identifier" : "com.animaapp.stc-sketch-plugin",
@@ -89,7 +107,7 @@
     "authorEmail" : "support@animaapp.com",
     "name" : "Auto Layout by Anima",
     "homepage": "http://www.animaapp.com",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "manifestURL": "",
     "downloadURL": "",
     "compatibleVersion": 41,

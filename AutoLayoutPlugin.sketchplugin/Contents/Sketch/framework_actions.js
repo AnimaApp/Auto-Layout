@@ -70,3 +70,12 @@ function duplicateAndDetachAllSymbols(context) {
     [APSketch duplicateAndDetachAllSymbols];
 }
 
+function detachSymbolPreservingOverrides(context) {
+    loadBundleIfRequired();
+    [APSketch detachSymbolPreservingOverridesNonRecursive];
+}
+
+function detachSymbolPreservingOverridesRecursive(context) {
+    loadBundleIfRequired();
+    [APSketch detachSymbolPreservingOverridesRecursive];
+}
