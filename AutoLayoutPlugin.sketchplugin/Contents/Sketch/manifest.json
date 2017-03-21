@@ -1,115 +1,105 @@
 {
-    "author" : "Anima App",
-    "commands" : [
-                  {
-                  "name": "Show/Hide Panel",
-                  "shortcut" : "ctrl a",
-                  "identifier": "com.animaapp.anima-panel-autolayout",
-                  "script": "autolayout.js",
-                  "handler": "togglePanel",
-                  "isRoot" : false
-                  },
-                  {
-                  "script" : "framework_actions.js",
-                  "handler" : "openDocs",
-                  "name" : "Guide",
-                  "identifier" : "com.animaapp.open-docs",
-                  "isRoot" : false
-                  },
-                  {
-                  "script" : "framework_actions.js",
-                  "handler" : "createScreenSizesDoc",
-                  "name" : "Generate Overview",
-                  "identifier" : "com.animaapp.create-sizes-doc-autolayout",
-                  "isRoot" : false
-                  },
-                  {
-                  "script" : "framework_actions.js",
-                  "handler" : "checkForUpdate",
-                  "name" : "Check for Update",
-                  "identifier" : "com.animaapp.check-for-update",
-                  "isRoot" : false
-                  },
-                  {
-                  "script" : "framework_actions.js",
-                  "handler" : "presentChangeLog",
-                  "name" : "What's New",
-                  "identifier" : "com.animaapp.changelog",
-                  "isRoot" : false
-                  },
-                  {
-                  "script" : "framework_actions.js",
-                  "handler" : "presentKeyboardShortcuts",
-                  "name" : "Keyboard Shortcuts",
-                  "identifier" : "com.animaapp.keyboard-shortcuts",
-                  "isRoot" : false
-                  },
-                  {
-                  "script" : "framework_actions.js",
-                  "handler" : "openCommunity",
-                  "name" : "Community",
-                  "identifier" : "com.animaapp.open-community",
-                  "isRoot" : false
-                  },
-                  {
-                  "script" : "framework_actions.js",
-                  "handler" : "duplicateAndDetachAllSymbols",
-                  "name" : "Prepare Export to other Plugins",
-                  "identifier" : "com.animaapp.duplicate-detach",
-                  "isRoot" : false
-                  },
-                  {
-                  "script" : "framework_actions.js",
-                  "handler" : "detachSymbolPreservingOverrides",
-                  "name" : "Detach Symbol and Apply Overrides",
-                  "identifier" : "com.animaapp.detach-symbol",
-                  "isRoot" : false
-                  },
-                  {
-                  "script" : "framework_actions.js",
-                  "handler" : "detachSymbolPreservingOverridesRecursive",
-                  "name" : "Detach Symbol + Nested Symbols",
-                  "identifier" : "com.animaapp.detach-symbol-recursive",
-                  "isRoot" : false
-                  },
-                  
-                  {
-                  "script":"autolayout.js",
-                    "handlers":{
-                        "actions":{
-                            "Startup":"start"
-                        }
-                    }
-                  }
-                  ],
-    "menu" : {
-        "title" : "📐 Auto-Layout by Anima",
-        "isRoot" : false,
-        "items" : [
-                   "com.animaapp.anima-panel-autolayout",
-                   "com.animaapp.create-sizes-doc-autolayout",
-                   "com.animaapp.duplicate-detach",
-                   "-",
-                   "com.animaapp.open-docs",
-                   "-",
-                   "com.animaapp.keyboard-shortcuts",
-                   "-",
-                   "com.animaapp.check-for-update",
-                   "com.animaapp.changelog",
-                   "com.animaapp.open-community",
-                   "-",
-                   "com.animaapp.detach-symbol",
-                   "com.animaapp.detach-symbol-recursive",
-                   ],
-    },
-    "identifier" : "com.animaapp.stc-sketch-plugin",
-    "description": "Auto Layout for Sketch",
-    "authorEmail" : "support@animaapp.com",
-    "name" : "Auto Layout by Anima",
-    "homepage": "http://www.animaapp.com",
-    "version": "0.2.3",
-    "manifestURL": "",
-    "downloadURL": "",
-    "compatibleVersion": 41,
-    "bundleVersion": 1
+	"author": "Anima App",
+	"commands": [{
+			"name": "Show/Hide Panel",
+			"shortcut": "ctrl a",
+			"identifier": "com.animaapp.anima-panel-autolayout",
+			"script": "autolayout.js",
+			"handler": "togglePanel",
+			"isRoot": false
+		}, {
+			"script": "framework_actions.js",
+			"handler": "openDocs",
+			"name": "Guide",
+			"identifier": "com.animaapp.open-docs",
+			"isRoot": false
+		}, {
+			"script": "framework_actions.js",
+			"handler": "createScreenSizesDoc",
+			"name": "Generate Overview",
+			"identifier": "com.animaapp.create-sizes-doc-autolayout",
+			"isRoot": false
+		}, {
+			"script": "framework_actions.js",
+			"handler": "checkForUpdate",
+			"name": "Check for Update",
+			"identifier": "com.animaapp.check-for-update",
+			"isRoot": false
+		}, {
+			"script": "framework_actions.js",
+			"handler": "presentChangeLog",
+			"name": "What's New",
+			"identifier": "com.animaapp.changelog",
+			"isRoot": false
+		}, {
+			"script": "framework_actions.js",
+			"handler": "presentKeyboardShortcuts",
+			"name": "Keyboard Shortcuts",
+			"identifier": "com.animaapp.keyboard-shortcuts",
+			"isRoot": false
+		}, {
+			"script": "framework_actions.js",
+			"handler": "openCommunity",
+			"name": "Community",
+			"identifier": "com.animaapp.open-community",
+			"isRoot": false
+		}, {
+			"script": "framework_actions.js",
+			"handler": "duplicateAndDetachAllSymbols",
+			"name": "Prepare Export to other Plugins",
+			"identifier": "com.animaapp.duplicate-detach",
+			"isRoot": false
+		}, {
+			"script": "framework_actions.js",
+			"handler": "detachSymbolPreservingOverrides",
+			"name": "Detach Symbol and Apply Overrides",
+			"identifier": "com.animaapp.detach-symbol",
+			"isRoot": false
+		}, {
+			"script": "framework_actions.js",
+			"handler": "detachSymbolPreservingOverridesRecursive",
+			"name": "Detach Symbol + Nested Symbols",
+			"identifier": "com.animaapp.detach-symbol-recursive",
+			"isRoot": false
+		},
+
+		{
+			"script": "autolayout.js",
+			"handlers": {
+				"actions": {
+					"Startup": "start"
+				}
+			}
+		}
+	],
+	"menu": {
+		"title": "📐 Auto-Layout by Anima",
+		"isRoot": false,
+		"items": [
+			"com.animaapp.anima-panel-autolayout",
+			"com.animaapp.create-sizes-doc-autolayout",
+			"com.animaapp.duplicate-detach",
+			"-",
+			"com.animaapp.open-docs",
+			"-",
+			"com.animaapp.keyboard-shortcuts",
+			"-",
+			"com.animaapp.check-for-update",
+			"com.animaapp.changelog",
+			"com.animaapp.open-community",
+			"-",
+			"com.animaapp.detach-symbol",
+			"com.animaapp.detach-symbol-recursive"
+		]
+	},
+	"identifier": "com.animaapp.stc-sketch-plugin",
+	"description": "Auto Layout for Sketch",
+	"authorEmail": "support@animaapp.com",
+	"name": "Auto Layout by Anima",
+	"homepage": "http://www.animaapp.com",
+	"version": "0.2.3",
+	"manifestURL": "",
+	"downloadURL": "",
+	"compatibleVersion": 41,
+	"bundleVersion": 1
 }
