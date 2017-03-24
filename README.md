@@ -1,5 +1,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/AnimaApp/Auto-Layout.svg?style=social&label=Star)](https://github.com/AnimaApp/Auto-Layout/stargazers)
 
+![](https://cl.ly/1Q1l342E0j0b/ezgif.com-video-to-gif%20(6).gif)
+
 ## Responsive Design for Sketch
 
 Auto-Layout is a plugin for Sketch that enables designers to design fully responsive artboards.
@@ -27,6 +29,4 @@ Auto-Layout is a plugin for Sketch that enables designers to design fully respon
 ### Documentation
 
 * [Link](https://animaapp.github.io/docs/v1/guide/)
-
-![](https://cl.ly/1Q1l342E0j0b/ezgif.com-video-to-gif%20(6).gif)
 
