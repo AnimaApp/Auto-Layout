@@ -138,7 +138,7 @@ A Stack is a special type of Group that defines the layout of its child Layers.
 
 ### How to Stack?
 
-To Stack layers or groups, select them and click the Stack button in Auto-Layout panel.
+To Stack layers  or groups, select them and click the Stack button in Auto-Layout panel.
 
 ### Stack Properties
 
