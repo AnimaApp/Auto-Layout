@@ -58,7 +58,7 @@ Once a pin is set, Auto-Layout will enforce the pin value when the artboard is r
 
 * A `Layer` is always pinned to its `Parent`
 * A parent can be either an `Artboard` or a `Group`
-* Pinning a `Layer` to a `Sibling` layer is currently **not** supported
+* Pinning betweein siblins can be achieved using `Stacks`
 
 `Layer` in an `Artboard`
 ![](/docs/images/pins1.png)
