@@ -27,5 +27,5 @@ Auto-Layout is a plugin for Sketch that enables designers to design fully respon
 
 ### 📖 Documentation
 
-* [Link](https://animaapp.github.io/docs/v1/guide/)
+* 🔗 [Link](https://animaapp.github.io/docs/v1/guide/)
 
