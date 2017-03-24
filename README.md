@@ -1,4 +1,4 @@
-[![GitHub stars](https://img.shields.io/github/stars/AnimaApp/Auto-Layout.svg?style=social&label=Star)]()
+[![GitHub stars](https://img.shields.io/github/stars/AnimaApp/Auto-Layout.svg?style=social&label=Star)](https://github.com/AnimaApp/Auto-Layout/stargazers)
 
 Blog post: https://medium.com/sketch-app-sources/introducing-auto-layout-for-sketch-24e7b5d068f9#.lxvpb5ptn
 
