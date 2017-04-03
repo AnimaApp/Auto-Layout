@@ -28,6 +28,8 @@ Auto-Layout is a plugin for Sketch that enables designers to design fully respon
 ### 🏃🏼 Install with Sketch Runner
 * With Sketch Runner, just go to the `install` command and search for `Auto Layout`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
 
+![Install with Sketch Runner](auto-layout-runner.png)
+
 # 📖 Documentation
 
 * 🔗 [Documentation Website](https://animaapp.github.io/docs/v1/guide/)
