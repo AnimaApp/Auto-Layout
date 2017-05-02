@@ -45,6 +45,11 @@ function checkForUpdate(context) {
     [APSketch checkForUpdateAndShowIfNone];
 }
 
+function showMyExports(context) {
+    loadBundleIfRequired();
+    [APSketch showMyExports];
+}
+
 function presentChangeLog(context) {
     loadBundleIfRequired();
     [APSketch presentChangeLog];
@@ -63,6 +68,27 @@ function openCommunity(context) {
 function openDocs(context) {
     loadBundleIfRequired();
     [APSketch openDocs];
+}
+
+function exportWeb(context) {
+    loadBundleIfRequired();
+    [[NSUserDefaults standardUserDefaults] setBool:0 forKey:@"com.animaapp.show-developer-dashboard-link"];
+    [APSketch exportWeb];
+}
+
+function exportWebReal(context) {
+    loadBundleIfRequired();
+    [[NSUserDefaults standardUserDefaults] setBool:1 forKey:@"com.animaapp.show-developer-dashboard-link"];
+    [APSketch exportWeb];
+}
+
+function myAccount(context) {
+    loadBundleIfRequired();
+    [APSketch myAccount];
+}
+
+function starOnGitHub(context) {
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/AnimaApp/Auto-Layout/stargazers"]];
 }
 
 function duplicateAndDetachAllSymbols(context) {
