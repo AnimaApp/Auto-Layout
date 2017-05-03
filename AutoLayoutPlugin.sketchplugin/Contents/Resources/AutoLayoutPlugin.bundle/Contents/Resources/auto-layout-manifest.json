@@ -10,6 +10,13 @@
                   },
                   {
                   "script" : "framework_actions.js",
+                  "handler" : "upgradePlan",
+                  "name" : "Upgrade Plan",
+                  "identifier" : "com.animaapp.upgrade-plan",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
                   "handler" : "starOnGitHub",
                   "name" : "Star us on GitHub",
                   "identifier" : "com.animaapp.star-github",
@@ -116,6 +123,7 @@
         "isRoot" : false,
         "items" : [
                    "com.animaapp.my-account",
+                   "com.animaapp.upgrade-plan",
                    "-",
                    "com.animaapp.export-code-web",
                    "com.animaapp.export-code-web-real",
@@ -153,7 +161,7 @@
     "authorEmail" : "support@animaapp.com",
     "name" : "Launchpad by Anima",
     "homepage": "http://www.animaapp.com",
-    "version": "0.5.0",
+    "version": "0.5.2",
     "manifestURL": "",
     "downloadURL": "",
     "compatibleVersion": 41,

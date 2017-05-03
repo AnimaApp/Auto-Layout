@@ -87,6 +87,11 @@ function myAccount(context) {
     [APSketch myAccount];
 }
 
+function upgradePlan(context) {
+    loadBundleIfRequired();
+    [APSketch upgradePlan];
+}
+
 function starOnGitHub(context) {
     [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/AnimaApp/Auto-Layout/stargazers"]];
 }
