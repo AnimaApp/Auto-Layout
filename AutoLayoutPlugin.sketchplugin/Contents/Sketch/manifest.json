@@ -1,0 +1,169 @@
+{
+    "author" : "Anima App",
+    "commands" : [
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "myAccount",
+                  "name" : "My Account",
+                  "identifier" : "com.animaapp.my-account",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "upgradePlan",
+                  "name" : "Upgrade Plan",
+                  "identifier" : "com.animaapp.upgrade-plan",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "starOnGitHub",
+                  "name" : "Star us on GitHub",
+                  "identifier" : "com.animaapp.star-github",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "exportWeb",
+                  "shortcut" : "ctrl e",
+                  "name" : "Create Preview Website",
+                  "identifier" : "com.animaapp.export-code-web",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "showMyExports",
+                  "name" : "Manage Sites",
+                  "identifier" : "com.animaapp.my-exports",
+                  "isRoot" : false
+                  },
+                  {
+                  "name": "Show/Hide Panel",
+                  "shortcut" : "ctrl a",
+                  "identifier": "com.animaapp.anima-panel-autolayout",
+                  "script": "autolayout.js",
+                  "handler": "togglePanel",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "openDocs",
+                  "name" : "Guide",
+                  "identifier" : "com.animaapp.open-docs",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "createScreenSizesDoc",
+                  "name" : "Generate Overview",
+                  "identifier" : "com.animaapp.create-sizes-doc-autolayout",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "checkForUpdate",
+                  "name" : "Check for Update",
+                  "identifier" : "com.animaapp.check-for-update",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "presentChangeLog",
+                  "name" : "What's New",
+                  "identifier" : "com.animaapp.changelog",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "presentKeyboardShortcuts",
+                  "name" : "Keyboard Shortcuts",
+                  "identifier" : "com.animaapp.keyboard-shortcuts",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "openCommunity",
+                  "name" : "Community",
+                  "identifier" : "com.animaapp.open-community",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "duplicateAndDetachAllSymbols",
+                  "name" : "Prepare Export to other Plugins",
+                  "identifier" : "com.animaapp.duplicate-detach",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "detachSymbolPreservingOverrides",
+                  "name" : "Detach Symbol While Keeping Overrides",
+                  "identifier" : "com.animaapp.detach-symbol",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "detachSymbolPreservingOverridesRecursive",
+                  "name" : "Detach Symbol While Keeping Overrides (Recursive)",
+                  "identifier" : "com.animaapp.detach-symbol-recursive",
+                  "isRoot" : false
+                  },
+
+                  {
+                  "script":"autolayout.js",
+                  "handlers":{
+                  "actions":{
+                  "Startup":"start"
+                  }
+                  }
+                  }
+                  ],
+    "menu" : {
+        "title" : "🚀 Launchpad by Anima",
+        "isRoot" : false,
+        "items" : [
+                   "com.animaapp.my-account",
+                   "com.animaapp.upgrade-plan",
+                   "-",
+                   "com.animaapp.export-code-web",
+                   "com.animaapp.export-code-web-real",
+                   "com.animaapp.my-exports",
+                   "-",
+                   "com.animaapp.anima-panel-autolayout",
+                   "com.animaapp.create-sizes-doc-autolayout",
+                   "com.animaapp.duplicate-detach",
+                   "-",
+                   "com.animaapp.open-docs",
+                   "com.animaapp.open-community",
+                   "com.animaapp.star-github",
+                   "-",
+                   "com.animaapp.keyboard-shortcuts",
+                   "-",
+                   {
+                   "title": "Version",
+                   "items": [
+                             "com.animaapp.check-for-update",
+                             "com.animaapp.changelog"
+                             ]
+                   },
+                   "-",
+                   {
+                   "title": "Detach Symbols",
+                   "items": [
+                             "com.animaapp.detach-symbol",
+                             "com.animaapp.detach-symbol-recursive"
+                             ]
+                   }
+                   ],
+    },
+    "identifier" : "com.animaapp.stc-sketch-plugin",
+    "description": "Publish websites directly from Sketch",
+    "authorEmail" : "support@animaapp.com",
+    "name" : "Launchpad by Anima",
+    "homepage": "http://www.animaapp.com",
+    "version": "0.5.2",
+    "manifestURL": "",
+    "downloadURL": "",
+    "compatibleVersion": 41,
+    "bundleVersion": 1
+}
