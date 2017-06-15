@@ -24,9 +24,16 @@
                   },
                   {
                   "script" : "framework_actions.js",
-                  "handler" : "exportWeb",
+                  "handler" : "publishWebsite",
                   "shortcut" : "ctrl e",
                   "name" : "Create Preview Website",
+                  "identifier" : "com.animaapp.publish-website",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "downloadWebCode",
+                  "name" : "Export Code",
                   "identifier" : "com.animaapp.export-code-web",
                   "isRoot" : false
                   },
@@ -96,6 +103,20 @@
                   },
                   {
                   "script" : "framework_actions.js",
+                  "handler" : "editMataTags",
+                  "name" : "HTML - Meta tags",
+                  "identifier" : "com.animaapp.edit-mata-tags",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "editFontsFallbacks",
+                  "name" : "CSS - Font-family fallbacks",
+                  "identifier" : "com.animaapp.edit-fonts-fallbacks",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
                   "handler" : "detachSymbolPreservingOverrides",
                   "name" : "Detach Symbol While Keeping Overrides",
                   "identifier" : "com.animaapp.detach-symbol",
@@ -125,9 +146,13 @@
                    "com.animaapp.my-account",
                    "com.animaapp.upgrade-plan",
                    "-",
-                   "com.animaapp.export-code-web",
-                   "com.animaapp.export-code-web-real",
+                   "com.animaapp.publish-website",
                    "com.animaapp.my-exports",
+                   "-",
+                   "com.animaapp.export-code-web",
+                   "-",
+                   "com.animaapp.edit-mata-tags",
+                   "com.animaapp.edit-fonts-fallbacks",
                    "-",
                    "com.animaapp.anima-panel-autolayout",
                    "com.animaapp.create-sizes-doc-autolayout",
@@ -157,13 +182,14 @@
                    ],
     },
     "identifier" : "com.animaapp.stc-sketch-plugin",
-    "description": "Responsive design for Sketch",
+    "description": "Responsive design for designers",
     "authorEmail" : "support@animaapp.com",
     "name" : "Auto Layout by Anima",
-    "homepage": "http://www.animaapp.com",
-    "version": "0.5.4",
+    "homepage": "https://www.animaapp.com",
+    "version": "0.8.1",
     "manifestURL": "",
     "downloadURL": "",
     "compatibleVersion": 41,
-    "bundleVersion": 1
+    "bundleVersion": 1,
+    "appcast": "https://www.animaapp.com/launchpad/appcast.xml"
 }

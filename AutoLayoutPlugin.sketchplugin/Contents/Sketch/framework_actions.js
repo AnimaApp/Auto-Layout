@@ -70,16 +70,14 @@ function openDocs(context) {
     [APSketch openDocs];
 }
 
-function exportWeb(context) {
+function publishWebsite(context) {
     loadBundleIfRequired();
-    [[NSUserDefaults standardUserDefaults] setBool:0 forKey:@"com.animaapp.show-developer-dashboard-link"];
-    [APSketch exportWeb];
+    [APSketch publishWebsite];
 }
 
-function exportWebReal(context) {
+function downloadWebCode(context) {
     loadBundleIfRequired();
-    [[NSUserDefaults standardUserDefaults] setBool:1 forKey:@"com.animaapp.show-developer-dashboard-link"];
-    [APSketch exportWeb];
+    [APSketch downloadWebCode];
 }
 
 function myAccount(context) {
@@ -109,4 +107,14 @@ function detachSymbolPreservingOverrides(context) {
 function detachSymbolPreservingOverridesRecursive(context) {
     loadBundleIfRequired();
     [APSketch detachSymbolPreservingOverridesRecursive];
+}
+
+function editFontsFallbacks(context) {
+    loadBundleIfRequired();
+    [APSketch editFontsFallbacks];
+}
+
+function editMataTags(context) {
+    loadBundleIfRequired();
+    [APSketch editMataTags];
 }

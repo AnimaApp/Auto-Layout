@@ -13,7 +13,9 @@ function togglePanel(context) {
         [APSketch setPluginContextDictionary:context];
     } catch (e) {}
     
-    [APSketch togglePanel];
+    try {
+        [APSketch togglePanel];
+    } catch (e) {}
 }
 
 function start(context) {
@@ -24,6 +26,7 @@ function start(context) {
     try {
         [APSketch setPluginContextDictionary:context];
     } catch (e) {}
-    
-    [APSketch start];
+    try {
+        [APSketch start];
+    } catch (e) {}
 }
