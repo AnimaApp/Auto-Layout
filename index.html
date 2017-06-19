@@ -85,6 +85,11 @@
     <!-- end Mixpanel -->
 </head>
 <style>
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
 body {
     background-color: #30323c;
     filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#30323c, endColorstr=#30323c);
@@ -319,10 +324,19 @@ ul.share-buttons .sr-only {
                 <h3 style="font-size: 16px; opacity: 0.9;"">Responsive Design for Designers</h3>
             </h1>
             <div style="margin-top: 25px;">
-                <a href="AutoLayoutPlugin.zip" class="btn btn-lg btn-info" style="font-weight: bold; font-size: 16px; background-color: #fff; border-color: #fff; color: #30323c;">
+              <form action="https://www.animaapp.com/plugins/launchpad/download" method="post">
+                <input type="email" name="email" placeholder="you@email.com" required style="height: 34px;
+                color: #111111;
+    border-radius: 10px;
+    width: 210px;
+    padding: 0 15px;
+    display: inline-block;
+    margin-right: 10px;
+    border-width: 0;"/>
+                <button type="submit" class="btn btn-lg btn-info" style="font-weight: bold; font-size: 16px; background-color: #fff; border-color: #fff; color: #30323c;">
                     Download
                 <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
-                </a>
+              </button>
             </div>
             <div style="margin-top:5px; font-size: 10px; color: #fff;">
                 <a style="color: #fff;" href="http://animaapp.s3.amazonaws.com/sketchplugin/autolayout/older/AutoLayoutPlugin - 0.1.2 MultipleSelection.zip">Download for Yosemite</a>
