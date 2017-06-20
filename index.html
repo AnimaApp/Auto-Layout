@@ -325,6 +325,7 @@ ul.share-buttons .sr-only {
             </h1>
             <div style="margin-top: 25px;">
               <form action="https://www.animaapp.com/plugins/launchpad/download" method="post">
+                <input type="hidden" name="referrer" id="referrer" />
                 <input type="email" name="email" placeholder="you@email.com" required style="height: 34px;
                 color: #111111;
     border-radius: 10px;
@@ -373,6 +374,9 @@ ul.share-buttons .sr-only {
         </script>
         <!-- Start of StatCounter Code for Default Guide -->
         <script type="text/javascript">
+
+        document.getElementById('referrer').value = document.referrer;
+
         var sc_project = 11202225;
         var sc_invisible = 1;
         var sc_security = "26873aed";
