@@ -1,0 +1,162 @@
+<html>
+<head>
+<style>
+    body {
+        background-color: white;
+    }
+    
+  .flexwrap {
+    text-align: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  p {
+    text-align: center;
+    width: 100%;
+    font-family: Helvetica;
+  }
+
+  .cell {
+    width:150px;
+    height:150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eee;
+  }
+
+  img {
+    transition: all .2s ease-in-out;
+    max-width: 100px;
+    max-height: 70px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .img-grow:hover {
+    transform: scale(1.1); 
+  }
+  .img-shrink:hover {
+    transform: scale(0.9); 
+  }
+  .img-shadow:hover {
+    transform: translate(0, -5px);
+    box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+  }
+  .img-left:hover {
+    transform: translate(-5px, 0);
+  }
+  .img-top:hover {
+   transform: translate(0, -5px);
+  }
+  .img-right:hover {
+    transform: translate(5px, 0);
+  }
+  .img-glow:hover {
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+  }
+  .img-rotate:hover {
+    transform: rotate(15deg);
+  }
+
+</style>
+</head>
+
+<body>
+    <div class="flexwrap">
+        <a href="hover://transform: scale(1.1);">
+            <div class="cell">
+                <img src="" class="img-grow" />
+                <p>Grow</p>
+            </div>
+        </a>
+        <a href="hover://transform: scale(0.9);">
+            <div class="cell">
+                <img src="" class="img-shrink" />
+                <p>Shrink</p>
+            </div>
+        </a>
+        <a href="hover://transform: translate(0, -5px); box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);">
+            <div class="cell">
+                <img src="" class="img-shadow" />
+                <p>Shadow</p>
+            </div>
+        </a>
+        <a href="hover://box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);">
+            <div class="cell">
+                <img src="" class="img-glow" />
+                <p>Glow</p>
+            </div>
+        </a>
+        <a href="hover://transform: translate(-5px, 0);">
+            <div class="cell">
+                <img src="" class="img-left" />
+                <p>Move Left</p>
+            </div>
+        </a>
+        <a href="hover://transform: translate(0, -5px);">
+            <div class="cell">
+                <img src="" class="img-top" />
+                <p>Move Up</p>
+            </div>
+        </a>
+        <a href="hover://transform: translate(5px, 0);">
+            <div class="cell">
+                <img src="" class="img-right" />
+                <p>Move Right</p>
+            </div>  
+        </a>
+        <a href="hover://transform: rotate(15deg);">
+            <div class="cell">
+                <img src="" class="img-rotate" />
+                <p>Rotate</p>
+            </div>
+        </a>
+    </div>
+    <a href="#" onclick="toggle_colors();">
+    <p style="font-size:12px;"><u>Background Color</u></p>
+    </a>
+    <script>
+        var update_image_path = function(path) {
+            images = document.getElementsByTagName("img");
+            for (index = 0; index < images.length; ++index) {
+                images[index].src = path;
+            }
+        }
+    
+        var is_white = true;
+    
+        var toggle_colors = function() {
+            var links_color = "#ddd";
+            if (is_white) {
+                document.getElementsByTagName("body")[0].style.color = "#ddd";
+                document.getElementsByTagName("body")[0].style.backgroundColor = "#111";
+                is_white = false;
+            }
+            else {
+                links_color = "#333";
+                document.getElementsByTagName("body")[0].style.color = "#333";
+                document.getElementsByTagName("body")[0].style.backgroundColor = "#fff";
+                is_white = true;
+            }
+            
+            links = document.getElementsByTagName("a");
+            for (index = 0; index < links.length; ++index) {
+                links[index].style.color = links_color;
+            }
+        }
+    </script>
+</body>
