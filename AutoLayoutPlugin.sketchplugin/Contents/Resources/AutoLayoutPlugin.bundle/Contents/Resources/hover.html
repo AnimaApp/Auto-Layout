@@ -71,6 +71,21 @@
   .img-rotate:hover {
     transform: rotate(15deg);
   }
+  .img-fadein {
+    opacity: 0;
+  }
+  .img-fadein:hover {
+    opacity: 1;
+  }
+  .img-fadeout:hover {
+    opacity: 0;
+  }
+  .img-blur:hover {
+    filter: blur(10px);
+  }
+  .img-grayscale:hover {
+    filter: grayscale(100%);
+  }
 
 </style>
 </head>
@@ -123,6 +138,30 @@
             <div class="cell">
                 <img src="" class="img-rotate" />
                 <p>Rotate</p>
+            </div>
+        </a>
+        <a href="hover://opacity: 1;">
+            <div class="cell">
+                <img src="" class="img-fadein" />
+                <p>Fade In</p>
+            </div>
+        </a>
+        <a href="hover://opacity: 0;">
+            <div class="cell">
+                <img src="" class="img-fadeout" />
+                <p>Fade Out</p>
+            </div>
+        </a>
+        <a href="hover://filter: blur(10px);">
+            <div class="cell">
+                <img src="" class="img-blur" />
+                <p>Blur</p>
+            </div>
+        </a>
+        <a href="hover://filter: grayscale(100%);">
+            <div class="cell">
+                <img src="" class="img-grayscale" />
+                <p>Grayscale</p>
             </div>
         </a>
     </div>
