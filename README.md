@@ -13,7 +13,7 @@ Auto-Layout is a plugin for Sketch that enables designers to design fully respon
 * 🖥 Easily generate an overview of all screen sizes
 * 💎 Supports Symbols
 * 📱 Supports Web/iOS/Android
-* ↔️ Breakpoints (media queries) (coming soon)
+* 🚀 Export a live, responsive website using Launchpad plugin (included)
 
 ### 📺 Videos
 
