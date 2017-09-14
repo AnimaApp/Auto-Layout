@@ -25,7 +25,7 @@
                   {
                   "script" : "framework_actions.js",
                   "handler" : "publishWebsite",
-                  "shortcut" : "alt w",
+                  "shortcut" : "command alt p",
                   "name" : "Preview Website",
                   "identifier" : "com.animaapp.publish-website",
                   "isRoot" : false
@@ -33,7 +33,7 @@
                   {
                   "script" : "framework_actions.js",
                   "handler" : "downloadWebCode",
-                  "shortcut" : "alt e",
+                  "shortcut" : "command alt e",
                   "name" : "Export HTML Code",
                   "identifier" : "com.animaapp.export-code-web",
                   "isRoot" : false
@@ -191,7 +191,7 @@
     "authorEmail" : "support@animaapp.com",
     "name" : "Launchpad by Anima",
     "homepage": "https://www.animaapp.com",
-    "version": "0.9.0",
+    "version": "0.10.0",
     "manifestURL": "",
     "downloadURL": "",
     "compatibleVersion": 41,
