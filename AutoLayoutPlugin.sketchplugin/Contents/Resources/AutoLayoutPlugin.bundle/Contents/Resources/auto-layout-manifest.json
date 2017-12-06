@@ -191,10 +191,10 @@
     "authorEmail" : "support@animaapp.com",
     "name" : "Launchpad by Anima",
     "homepage": "https://www.animaapp.com",
-    "version": "0.10.4",
+    "version": "0.11.0",
     "manifestURL": "",
     "downloadURL": "",
-    "compatibleVersion": 41,
+    "compatibleVersion": 44,
     "bundleVersion": 1,
     "appcast": "https://www.animaapp.com/launchpad/appcast.xml"
 }
