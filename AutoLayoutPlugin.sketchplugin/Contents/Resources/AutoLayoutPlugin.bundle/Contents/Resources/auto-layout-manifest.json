@@ -47,7 +47,7 @@
                   },
                   {
                   "name": "Show/Hide Panel",
-                  "shortcut" : "ctrl a",
+                  "shortcut" : "command ctrl a",
                   "identifier": "com.animaapp.anima-panel-autolayout",
                   "script": "autolayout.js",
                   "handler": "togglePanel",
@@ -191,10 +191,10 @@
     "authorEmail" : "support@animaapp.com",
     "name" : "Launchpad by Anima",
     "homepage": "https://www.animaapp.com",
-    "version": "0.11.0",
+    "version": "0.11.5",
     "manifestURL": "",
     "downloadURL": "",
-    "compatibleVersion": 44,
+    "compatibleVersion": 49,
     "bundleVersion": 1,
     "appcast": "https://www.animaapp.com/launchpad/appcast.xml"
 }
