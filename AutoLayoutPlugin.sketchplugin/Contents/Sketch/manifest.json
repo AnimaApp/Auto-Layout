@@ -47,7 +47,7 @@
                   },
                   {
                   "name": "Show/Hide Panel",
-                  "shortcut" : "command ctrl a",
+                  "shortcut" : "ctrl a",
                   "identifier": "com.animaapp.anima-panel-autolayout",
                   "script": "autolayout.js",
                   "handler": "togglePanel",
@@ -226,11 +226,7 @@
     "authorEmail" : "support@animaapp.com",
     "name" : "Anima Toolkit",
     "homepage": "https://www.animaapp.com",
-<<<<<<< HEAD
     "version": "0.13.2",
-=======
-    "version": "0.11.5",
->>>>>>> c667d0a6985896ba89c0dff05684e2164bf3ab47
     "manifestURL": "",
     "downloadURL": "",
     "compatibleVersion": 49,
