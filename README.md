@@ -1,4 +1,5 @@
-[![GitHub stars](https://img.shields.io/github/stars/AnimaApp/Auto-Layout.svg?style=social&label=Star)](https://github.com/AnimaApp/Auto-Layout/stargazers)
+
+[![Install Auto-Layout with Sketchpacks](http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png "Install Auto-Layout with Sketchpacks")](https://sketchpacks.com/AnimaApp/Auto-Layout/install)
 
 ## 📐 Responsive Design for Sketch
 ![](https://cl.ly/1Q1l342E0j0b/ezgif.com-video-to-gif%20(6).gif)
