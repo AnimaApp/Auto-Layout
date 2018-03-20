@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
+<<<<<<< HEAD
 	<string>17E160e</string>
+=======
+	<string>17D47</string>
+>>>>>>> c667d0a6985896ba89c0dff05684e2164bf3ab47
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +21,11 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
+<<<<<<< HEAD
 	<string>0.13.2</string>
+=======
+	<string>0.11.5</string>
+>>>>>>> c667d0a6985896ba89c0dff05684e2164bf3ab47
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
