@@ -118,3 +118,8 @@ function editMataTags(context) {
     loadBundleIfRequired();
     [APSketch editMataTags];
 }
+
+function prepareForExport(context) {
+    loadBundleIfRequired();
+    [APSketch prepareForExportIfNeeded];
+}

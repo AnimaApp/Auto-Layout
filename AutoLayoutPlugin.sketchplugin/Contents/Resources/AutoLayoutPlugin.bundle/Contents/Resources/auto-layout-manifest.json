@@ -3,6 +3,13 @@
     "commands" : [
                   {
                   "script" : "framework_actions.js",
+                  "handler" : "prepareForExport",
+                  "name" : "Prepare For Export",
+                  "identifier" : "com.animaapp.prepare-for-export",
+                  "isRoot" : false
+                  },
+                  {
+                  "script" : "framework_actions.js",
                   "handler" : "myAccount",
                   "name" : "My Account",
                   "identifier" : "com.animaapp.my-account",
@@ -155,18 +162,19 @@
                   {
                   "script":"autolayout.js",
                   "handlers":{
-                  "actions":{
-                  "Startup":"start"
-                  }
-                  }
-                  }
+                      "actions":{
+                      "Startup":"start",
+                  "OpenDocument": "start"
+                      }
+                      }
+                    }
                   ],
     "addLater" : {
         "title" : "🔹 Timeline",
         "items" : [
                    "com.animaapp.animate-selection",
                    "com.animaapp.timeline-tutorial",
-                   "com.animaapp.timeline-sample-file",
+                   "com.animaapp.timeline-sample-file"
                    ]
     },
     "menu" :{
@@ -185,6 +193,9 @@
                                   "com.animaapp.upgrade-plan",
                                   "-",
                                   "com.animaapp.anima-panel-autolayout",
+                                  "-",
+                                  "com.animaapp.duplicate-detach",
+                                  "-",
                                   {
                                   "title": "More",
                                   "items": [
@@ -216,9 +227,9 @@
                                                       ]
                                             }
                                             ]
-                                  },
-                                  ],
-                       },
+                                  }
+                                  ]
+                       }
                        ]
         },
     "identifier" : "com.animaapp.stc-sketch-plugin",
@@ -226,7 +237,7 @@
     "authorEmail" : "support@animaapp.com",
     "name" : "Anima Toolkit",
     "homepage": "https://www.animaapp.com",
-    "version": "0.13.2",
+    "version": "0.13.3",
     "manifestURL": "",
     "downloadURL": "",
     "compatibleVersion": 49,
