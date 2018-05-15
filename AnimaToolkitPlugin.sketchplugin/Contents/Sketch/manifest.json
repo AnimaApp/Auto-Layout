@@ -244,10 +244,10 @@
     "authorEmail" : "support@animaapp.com",
     "name" : "Anima Toolkit",
     "homepage": "https://www.animaapp.com",
-    "version": "0.14.1",
+    "version": "0.14.2",
     "manifestURL": "",
     "downloadURL": "",
-    "compatibleVersion": 49,
+    "compatibleVersion": 51,
     "bundleVersion": 1,
     "appcast": "https://www.animaapp.com/timeline/appcast.xml"
 }
