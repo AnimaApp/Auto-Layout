@@ -165,7 +165,13 @@
                   "identifier" : "com.animaapp.timeline-tutorial",
                   "isRoot" : false
                   },
-
+                  {
+                  "script" : "framework_actions.js",
+                  "handler" : "clearExportCache",
+                  "name" : "Clear Cache",
+                  "identifier" : "com.animaapp.clear-cache",
+                  "isRoot" : false
+                  },
                   {
                   "script":"autolayout.js",
                   "handlers":{
@@ -208,6 +214,7 @@
                                   "items": [
                                             "com.animaapp.edit-mata-tags",
                                             "com.animaapp.edit-fonts-fallbacks",
+                                            "com.animaapp.clear-cache",
                                             "-",
                                             "com.animaapp.create-sizes-doc-autolayout",
                                             "com.animaapp.duplicate-detach",
@@ -244,7 +251,7 @@
     "authorEmail" : "support@animaapp.com",
     "name" : "Anima Toolkit",
     "homepage": "https://www.animaapp.com",
-    "version": "0.14.2",
+    "version": "2.0.5",
     "manifestURL": "",
     "downloadURL": "",
     "compatibleVersion": 51,

@@ -128,3 +128,9 @@ function exportToZeplin(context) {
     loadBundleIfRequired();
     [APSketch runZeplinExport:context];
 }
+
+function clearExportCache(context) {
+    loadBundleIfRequired();
+    [APSketch clearExportCache];
+}
+

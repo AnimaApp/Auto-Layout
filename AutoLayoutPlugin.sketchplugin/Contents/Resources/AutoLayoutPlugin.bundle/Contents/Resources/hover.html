@@ -181,20 +181,20 @@
         var toggle_colors = function() {
             var links_color = "#ddd";
             if (is_white) {
-                document.getElementsByTagName("body")[0].style.color = "#ddd";
-                document.getElementsByTagName("body")[0].style.backgroundColor = "#111";
+                document.getElementsByTagName("body")[0].apStyle.color = "#ddd";
+                document.getElementsByTagName("body")[0].apStyle.backgroundColor = "#111";
                 is_white = false;
             }
             else {
                 links_color = "#333";
-                document.getElementsByTagName("body")[0].style.color = "#333";
-                document.getElementsByTagName("body")[0].style.backgroundColor = "#fff";
+                document.getElementsByTagName("body")[0].apStyle.color = "#333";
+                document.getElementsByTagName("body")[0].apStyle.backgroundColor = "#fff";
                 is_white = true;
             }
             
             links = document.getElementsByTagName("a");
             for (index = 0; index < links.length; ++index) {
-                links[index].style.color = links_color;
+                links[index].apStyle.color = links_color;
             }
         }
     </script>
