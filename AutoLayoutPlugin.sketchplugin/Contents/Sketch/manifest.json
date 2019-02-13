@@ -3,9 +3,9 @@
     "commands" : [
                   {
                   "script" : "framework_actions.js",
-                  "handler" : "exportToZeplin",
-                  "name" : "Export to Zeplin",
-                  "identifier" : "com.animaapp.export-to-zeplin",
+                  "handler" : "shareHandoff",
+                  "name" : "Share Handoff Link",
+                  "identifier" : "com.animaapp.share-handoff",
                   "isRoot" : false
                   },
                   {
@@ -38,7 +38,7 @@
                   },
                   {
                   "script" : "framework_actions.js",
-                  "handler" : "publishWebsite",
+                  "handler" : "previewInBrowser",
                   "shortcut" : "command alt p",
                   "name" : "Preview Website",
                   "identifier" : "com.animaapp.publish-website",
@@ -173,6 +173,20 @@
                   "isRoot" : false
                   },
                   {
+                      "script" : "framework_actions.js",
+                      "handler" : "removeAutolayoutData",
+                      "name" : "Remove all Stacks, Padding and Pins",
+                      "identifier" : "com.animaapp.remove-from-doc",
+                      "isRoot" : false
+                  },
+                  {
+                      "script" : "framework_actions.js",
+                      "handler" : "arrangeArtboards",
+                      "name" : "Arrange Artboards in rows",
+                      "identifier" : "com.animaapp.arrange-artboards",
+                      "isRoot" : false
+                  },
+                  {
                   "script":"autolayout.js",
                   "handlers":{
                       "actions":{
@@ -191,7 +205,7 @@
                    ]
     },
     "menu" :{
-            "title" : "Anima",
+            "title" : "🚀 Anima Toolkit",
             "isRoot" : true,
             "items" : [
                        
@@ -200,6 +214,7 @@
                        "items" : [
                                   "com.animaapp.publish-website",
                                   "com.animaapp.export-code-web",
+                                  "com.animaapp.share-handoff",
                                   "com.animaapp.my-exports",
                                   "-",
                                   "com.animaapp.my-account",
@@ -215,8 +230,10 @@
                                             "com.animaapp.edit-mata-tags",
                                             "com.animaapp.edit-fonts-fallbacks",
                                             "com.animaapp.clear-cache",
+                                            "com.animaapp.remove-from-doc",
                                             "-",
                                             "com.animaapp.create-sizes-doc-autolayout",
+                                            "com.animaapp.arrange-artboards",
                                             "com.animaapp.duplicate-detach",
                                             "-",
                                             "com.animaapp.open-docs",
@@ -247,14 +264,15 @@
                        ]
         },
     "identifier" : "com.animaapp.stc-sketch-plugin",
-    "description": "Publish responsive websites and animations directly from Sketch",
+    "description": "Create Responsive and Interactive High-Fidelity Prototypes, All Inside Sketch",
     "authorEmail" : "support@animaapp.com",
     "name" : "Anima Toolkit",
     "homepage": "https://www.animaapp.com",
-    "version": "2.0.5",
+    "version": "3.0.7",
     "manifestURL": "",
     "downloadURL": "",
-    "compatibleVersion": 51,
+    "compatibleVersion": 53,
     "bundleVersion": 1,
-    "appcast": "https://www.animaapp.com/timeline/appcast.xml"
+    "appcast": "https://www.animaapp.com/timeline/appcast.xml",
+    "icon": "plugin_list_logo.png"
 }

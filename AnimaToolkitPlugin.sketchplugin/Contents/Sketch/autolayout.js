@@ -6,7 +6,7 @@
 
 function togglePanel(context) {
     if (NSClassFromString("APSketch") == null) {
-        runtime.loadBundle("AutoLayoutPlugin.bundle");
+        runtime.loadBundle("AnimaToolkit.bundle");
         [APSketch setPluginContextDictionary:context];
     }
     try {
@@ -19,9 +19,19 @@ function togglePanel(context) {
 }
 
 function start(context) {
-    if (NSClassFromString("APSketch") == null) {
-        runtime.loadBundle("AutoLayoutPlugin.bundle");
+    try {
+        runtime.loadBundle("AnimaToolkit.bundle");
         [APSketch setPluginContextDictionary:context];
+    } catch (e) {
+        try {
+            runtime.loadBundle("AnimaToolkitTests.bundle");
+            [APSketch setPluginContextDictionary:context];
+        } catch (e) {
+            try {
+                runtime.loadBundle("AutoLayoutPlugin.bundle");
+                [APSketch setPluginContextDictionary:context];
+            } catch (e) {}
+        }
     }
     try {
         [APSketch setPluginContextDictionary:context];

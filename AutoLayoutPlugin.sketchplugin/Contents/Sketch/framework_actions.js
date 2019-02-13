@@ -11,11 +11,11 @@
 function loadBundleIfRequired() {
     if (NSClassFromString("APSketch") == null) {
         try {
-            runtime.loadBundle("STCPlugin.bundle");
+            runtime.loadBundle("AnimaToolkit.bundle");
             [APSketch setPluginContextDictionary:context];
         } catch (e) {
             try {
-                runtime.loadBundle("AnimaPlugin.bundle");
+                runtime.loadBundle("AnimaToolkitTests.bundle");
                 [APSketch setPluginContextDictionary:context];
             } catch (e) {
                 try {
@@ -70,14 +70,19 @@ function openDocs(context) {
     [APSketch openDocs];
 }
 
-function publishWebsite(context) {
+function previewInBrowser(context) {
     loadBundleIfRequired();
-    [APSketch publishWebsite];
+    [APSketch previewInBrowser];
 }
 
 function downloadWebCode(context) {
     loadBundleIfRequired();
     [APSketch downloadWebCode];
+}
+
+function shareHandoff(context) {
+    loadBundleIfRequired();
+    [APSketch shareHandoff];
 }
 
 function myAccount(context) {
@@ -134,3 +139,13 @@ function clearExportCache(context) {
     [APSketch clearExportCache];
 }
 
+
+function removeAutolayoutData(context) {
+    loadBundleIfRequired();
+    [APSketch removeAutolayoutData];
+}
+
+function arrangeArtboards(context) {
+    loadBundleIfRequired();
+    [APSketch arrangeArtboards];
+}
