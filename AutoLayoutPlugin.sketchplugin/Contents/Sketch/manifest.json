@@ -191,7 +191,8 @@
                   "handlers":{
                       "actions":{
                       "Startup":"start",
-                  "OpenDocument": "start"
+                  "OpenDocument": "start",
+                  "SelectionChanged.finish": "selectionChanged"
                       }
                       }
                     }
@@ -267,11 +268,11 @@
     "description": "Create Responsive and Interactive High-Fidelity Prototypes, All Inside Sketch",
     "authorEmail" : "support@animaapp.com",
     "name" : "Anima Toolkit",
-    "homepage": "https://www.animaapp.com",
-    "version": "3.0.7",
+    "homepage": "https://www.animaapp.com/changelog",
+    "version": "3.2.0",
     "manifestURL": "",
     "downloadURL": "",
-    "compatibleVersion": 53,
+    "compatibleVersion": 59,
     "bundleVersion": 1,
     "appcast": "https://www.animaapp.com/timeline/appcast.xml",
     "icon": "plugin_list_logo.png"

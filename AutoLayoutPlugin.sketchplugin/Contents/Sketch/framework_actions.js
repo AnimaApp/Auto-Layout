@@ -11,7 +11,7 @@
 function loadBundleIfRequired() {
     if (NSClassFromString("APSketch") == null) {
         try {
-            runtime.loadBundle("AnimaToolkit.bundle");
+            runtime.loadBundle("AutoLayoutPlugin.bundle");
             [APSketch setPluginContextDictionary:context];
         } catch (e) {
             try {

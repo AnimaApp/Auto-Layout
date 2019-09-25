@@ -1,0 +1,24 @@
+Message variations,Answer variations,Article Link Title,Link,"Custom face [sad, happy, no-value]"
+"Thanks,thank you,great,you're great,you rock,thx,thanks,10x","My plesure!,You're Welcome!,Happy to Help!",,,happy
+"what is this,who are you,are you human,are you a human,what are you,who are you,who r u,What is your name,What's your name","""I'm Nola, your digital assistant"",I'm Nola","Meet Nola, Anima's digital assistant",https://medium.com/@AnimaApp/say-hello-to-nola-dd215bcd2593,happy
+"wtf,fuck,fuck you,you suck","""I'm sorry, would you like to report a bug?""",Report a bug,https://airtable.com/shrvXVj4SjP6uqGhu,sad
+"hi,hello,hola,hey,yo,hi nola","Hi there!,Hello :)","Meet Nola, Anima's digital assistant",https://medium.com/@AnimaApp/say-hello-to-nola-dd215bcd2593,happy
+nola,That's my name!,"Meet Nola, Anima's digital assistant",https://medium.com/@AnimaApp/say-hello-to-nola-dd215bcd2593,happy
+"help,help me,need help,i need help","""Sure thing. Search for any topic (i.e 'links', 'prototype')""",Anima Tutorial Sketch File ,https://medium.com/sketch-app-sources/how-to-create-a-spotify-inspired-prototype-using-sketch-anima-63dfcc977f7c,
+"How are you,how r u",I'm great! thx,,,
+How old are you,"I'm old enough,A non-binary never tells,🤫",,,
+"Are you a boy,Are you a girl",I'm non-binary 😉,,,
+"Are you still there,are you there,r u there","Always here!,I have nothing else to do 😄,Where else would I be ;)",,,
+"Who made you,who created you",Anima team made me :),"Meet Nola, Anima's digital assistant",https://medium.com/@AnimaApp/say-hello-to-nola-dd215bcd2593,happy
+"are you a bot,r u a bot,are you a robot,are you a chatbot",Yes I am :),"Meet Nola, Anima's digital assistant",https://medium.com/@AnimaApp/say-hello-to-nola-dd215bcd2593,happy
+preset_hello_first_time,"""Hi there, I'm Nola 👋""","Meet Nola, Anima's digital assistant",https://medium.com/@AnimaApp/say-hello-to-nola-dd215bcd2593,happy
+preset_no_tips_has_artboards,Looks great! Try 'Preview in Browser' 😊,,,
+preset_no_tips_no_artboards,Lets get started!,Anima Tutorial Sketch File ,https://medium.com/sketch-app-sources/how-to-create-a-spotify-inspired-prototype-using-sketch-anima-63dfcc977f7c,
+preset_short_search_term,"""Search articles, i.e 'Prototype'""",,,
+preset_no_search_results,"""Sorry, no matching articles 😩""",,,
+preset_search_results,Here's what I found,,,
+preset_suggestions,You might find these interesting,,,
+preset_tips_on_export,Here are some tips for your next draft,,,
+preset_tips,Some tips before 'Preview in Browser',,,
+preset_heads_up,Heads up!,,,
+preset_restart_sketch,Thanks for updating. Heads up!,,,

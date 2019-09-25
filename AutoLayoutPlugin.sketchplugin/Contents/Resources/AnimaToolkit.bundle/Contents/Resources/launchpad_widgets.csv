@@ -1,10 +1,0 @@
-name,description,image,signup,snippet,additional_steps,support_iframe
-Crisp.im,"Live chat with your website visitors.
-This one is awesome, we use it.",https://animaapp.s3.amazonaws.com/launchpad-static/widget_market/icons/crisp.png,https://app.crisp.im/initiate/signup/,https://app.crisp.im/settings/websites/,"Settings,Setup,HTML,Copy",1
-Gumroad,"E-Commerce - Sell products (!)
-Add “Buy” buttons and more.",https://animaapp.s3.amazonaws.com/launchpad-static/widget_market/icons/gumroad.png,https://gumroad.com/,https://gumroad.com/products,"Add Product,Embed,Copy",1
-StatCounter,"Get statistics abouts you website - 
-Page views, countries, etc.",https://animaapp.s3.amazonaws.com/launchpad-static/widget_market/icons/statcounter.png,https://statcounter.com/sign-up/,https://statcounter.com/sign-up/snippet/?guide=default,Copy,1
-MailChimp,"Create a mailing list, embed  signup in your website.",https://animaapp.s3.amazonaws.com/launchpad-static/widget_market/icons/mailchimp.png,https://login.mailchimp.com/signup/,https://admin.mailchimp.com/lists/new-list/,"Create List,Signup Forms,Embedded forms,Copy",0
-Google Analytics,"Get statistics abouts you website - 
-Page views, countries, etc.",https://animaapp.s3.amazonaws.com/launchpad-static/widget_market/icons/ga.png,https://analytics.google.com/analytics/web/provision/?authuser=0#provision/SignUp/,https://analytics.google.com/analytics/web/,"Admin,Tracking Info,Tracking Code",0

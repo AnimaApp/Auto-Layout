@@ -1,0 +1,27 @@
+ID,Title,Link,Native Action,on edit layer,on export,priority (bigger is higher),Description,item name,items name,"Type [error,warning,info]"
+CONFLICT_PINS,Conflicting Pins,,Fix conflicts,1,1,3,This could cause designs to look different in browser.,link,links,warning
+EXPORTABLE_LINK,Link inside Exportable Group,,Unset Exportable,1,1,5,"Exportable Groups will export as images, and therefore links inside them will not work.",link,links,warning
+EXPORTABLE_SMART,Smart Layer inside Exportable Group,,Unset Exportable,1,1,5,"Exportable Groups will export as images, and therefore Smart Layers inside them will not work.",smart layer,smart layers,warning
+EXPORTABLE_INTERACTION,Interaction inside Exportable Group,,Unset Exportable,1,1,5,"Exportable Groups will export as images, and therefore Interactions inside them will not work.",interaction,interactions,warning
+BLOCKED_INTERACTION,Unreachable Interaction,,,,1,5,Interaction blocked by another layer in front of it.,interaction,interactions,warning
+BLOCKED_LINK,Unreachable Link,,,,1,5,Link blocked by another layer in front of it.,link,links,warning
+MASK_FLATTEN,Masked Group Flattening,,,,1,2,Masks that aren't rectangles will have the containing group exported as a single image.,group,groups,info
+GROUP_SHADOW,Group Shadow,,,,1,2,"Group with shadows aren't supported yet. Set as 'Exportable' to export as an image, or add a shape with shadow.",Layer,Layers,info
+BG_BLUR,Blur Effect,,,,1,2,Background-blur is not supported yet. Mark group as 'Exportable' to export as an image.,Layer,Layers,info
+BLEND_MODE,Blend Mode,,,,1,2,Blend modes are not supported yet. Mark group as 'Exportable' to make it export as an image.,Layer,Layers,info
+X1_IMAGES_USER,Exportable x1 Images,,,,1,0,You've set some layers to Exportable x1. They might look blurry on Retina displays. Consider using SVG or x2 PNG/JPG.,layer,layers,info
+X1_IMAGES_AUTO,Non-Retina images,https://support.animaapp.com/faq/how-to-avoid-blurry-images-use-retina-images-and-vectors-svgs,Learn more,,1,0,"Large images are exported as x1. They might look blurry on Retina displays. To override it, use SVG or x2  on Exportable panel.",layer,layers,info
+SYSTEM_FONT,Issue detected: System Font,https://support.animaapp.com/faq/how-we-handle-fonts,Learn more,,1,4,"Due to copyright & technical limitations, Anima doesn't upload System fonts. We recommend google fonts for best support and performance.",font,fonts,warning
+UNSUPPORTED_FONT,Non-Web Font,https://support.animaapp.com/faq/how-we-handle-fonts,Learn more,,1,4,Some fonts aren't compatible with browsers. We recommend google fonts for best support and performance.,font,fonts,warning
+MISSING_FONT_FILE,Missing Font,,,,1,4,We couldn't find some fonts on your Mac. Make sure you have installed all fonts in use.,font,fonts,warning
+REPEATING_LINK,Repeating Links,,,,1,0,Did you know links work inside symbols? Save some effort by using Symbols. Ideal for Navigation-bars and footers.,link,links,info
+LAYOUT_EXPORT,Padding/Stacks and Handoff,,,1,,0,Stacks and Padding in symbols don't always work well with Zeplin/Craft/Marvel.,layer,layers,info
+BROKEN_ANIMA_LINK,Broken Anima Link,,,1,1,6,Some Anima links seems to be broken. This usually happens when target Artboard was deleted.,link,links,warning
+BROKEN_VIDEO_LINK,Broken Video Link,,,1,,0,"Bad Video/GIF link, please make sure you've entered it correctly.",link,links,warning
+BROKEN_URL,Broken HTTP Link,,,1,,0,"Link appears to be broken, please make sure you've entered it correctly.",link,links,warning
+TRANSPARENT_GIF,GIF Transparency,,Remove transparency,,1,0,GIF file format does not support opacity other that 100% or 0%. Expect sharp edges for text and no shadows.,animation,animations,info
+EXPORT_GIF,GIF File Quality,https://support.animaapp.com/faq/gif-mp4-low-export-quality,Learn more,,1,0,GIF file format supports 256 colors. It means gradients and bitmaps usually doesn't look well.,animation,animations,info
+EXPORT_VIDEO_GIF,Look Sharp on Retina,https://support.animaapp.com/faq/gif-mp4-low-export-quality,Learn more,,1,0,"Adjust your design to Mac/Mobile retina screens by using x2 the size you'd be using on your website. I.e for 200x200px loader, use 400x400 video.",animation,animations,info
+MULTIPLE_HOME_SCREENS,Multiple Artboards were set as Home,,Keep one,,1,3,This usually happens when duplicating home Artboard. You can edit it on Prototype > Flow > Set as Home,artboard,artboards,warning
+OVERLAY_TO_OVERLAY,Overlay Can't Present an Overlay ,,Make it a Link,1,1,3,Presenting an overlay from an overlay s not supported yet. You can probably achieve wanted behaviour with Interactions.,link,links,warning
+RESTART_SKETCH,Restart Sketch Required,,Restart Sketch,,,10,"After updating, Anima requires Sketch to restart in order to work properly. Simply quit Sketch and start it again.",,,error
